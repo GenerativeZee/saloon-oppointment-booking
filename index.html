@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lumière Luxury Salon - Experience premium hair and beauty care.">
+    <title>Lumière | Luxury Hair & Beauty Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">LUMIÈRE</div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#stylists">Stylists</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+            <button class="btn-primary open-booking">Book Now</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-up">
+            <h1>Experience Luxury Hair & Beauty Care</h1>
+            <p>Elevate your style with our premium, bespoke services in a calming, high-end environment.</p>
+            <button class="btn-primary btn-large open-booking">Book Appointment</button>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="section-header fade-up">
+            <h2>Our Services</h2>
+            <p>Curated treatments for your ultimate well-being</p>
+        </div>
+        <div class="services-grid container fade-up">
+            <div class="service-card">
+                <div class="icon">✨</div>
+                <h3>Hair Styling & Color</h3>
+                <p>Expert cuts, bespoke coloring, and premium treatments.</p>
+                <span class="price">From $120</span>
+            </div>
+            <div class="service-card">
+                <div class="icon">💆‍♀️</div>
+                <h3>Spa & Massage</h3>
+                <p>Relaxing deep tissue and aromatherapy massages.</p>
+                <span class="price">From $150</span>
+            </div>
+            <div class="service-card">
+                <div class="icon">🌿</div>
+                <h3>Skincare</h3>
+                <p>Rejuvenating facials and advanced skin therapy.</p>
+                <span class="price">From $180</span>
+            </div>
+            <div class="service-card">
+                <div class="icon">💄</div>
+                <h3>Premium Makeup</h3>
+                <p>Flawless applications for events and bridal parties.</p>
+                <span class="price">From $100</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stylists Section -->
+    <section id="stylists" class="section section-dark">
+        <div class="section-header fade-up">
+            <h2>Meet the Stylists</h2>
+            <p>Our team of master artisans</p>
+        </div>
+        <div class="stylists-grid container fade-up">
+            <div class="stylist-card">
+                <img src="assets/images/stylist1.png" alt="Elena - Master Stylist">
+                <div class="stylist-info">
+                    <h3>Elena</h3>
+                    <p>Master Hair Stylist</p>
+                </div>
+            </div>
+            <div class="stylist-card">
+                <img src="assets/images/stylist2.png" alt="Julian - Color Director">
+                <div class="stylist-info">
+                    <h3>Julian</h3>
+                    <p>Color Director</p>
+                </div>
+            </div>
+            <div class="stylist-card">
+                <img src="assets/images/stylist3.png" alt="Sophia - Lead Aesthetician">
+                <div class="stylist-info">
+                    <h3>Sophia</h3>
+                    <p>Lead Aesthetician</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="section-header fade-up">
+            <h2>Gallery</h2>
+            <p>Glimpses of luxury</p>
+        </div>
+        <div class="gallery-grid container fade-up">
+            <img src="assets/images/gallery1.png" alt="Salon Gallery 1" class="gallery-img">
+            <img src="assets/images/gallery2.png" alt="Salon Gallery 2" class="gallery-img">
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section section-light">
+        <div class="section-header fade-up">
+            <h2>Client Testimonials</h2>
+            <p>What our guests say</p>
+        </div>
+        <div class="carousel-container container fade-up">
+            <div class="carousel-slide active">
+                <p class="quote">"An absolute dream. The atmosphere is incredibly calming, and Elena gave me the best haircut of my life."</p>
+                <span class="author">- Isabella R.</span>
+            </div>
+            <div class="carousel-slide">
+                <p class="quote">"Five-star experience from the moment you walk in. The spa treatment was exactly what I needed."</p>
+                <span class="author">- Marcus T.</span>
+            </div>
+            <div class="carousel-slide">
+                <p class="quote">"Julian is a color genius. I leave feeling like royalty every single time. Highly recommended."</p>
+                <span class="author">- Chloe S.</span>
+            </div>
+            <div class="carousel-controls">
+                <button id="prev-btn">&#8592;</button>
+                <button id="next-btn">&#8594;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="footer-container container">
+            <div class="footer-brand">
+                <h2>LUMIÈRE</h2>
+                <p>Luxury Hair & Beauty Care</p>
+                <p class="address">123 Elegance Boulevard, Paris</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#services">Services</a>
+                <a href="#stylists">Stylists</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#membership">Membership</a>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Join the Elite</h3>
+                <p>Subscribe for exclusive offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Lumière Luxury Salon. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="booking-wizard">
+                <div class="wizard-header">
+                    <h2>Book Appointment</h2>
+                    <div class="progress-bar">
+                        <div class="step active" data-step="1">1</div>
+                        <div class="step" data-step="2">2</div>
+                        <div class="step" data-step="3">3</div>
+                    </div>
+                </div>
+                
+                <!-- Step 1: Service Selection -->
+                <div class="wizard-step active" id="step-1">
+                    <h3>Select a Service</h3>
+                    <div class="options-grid">
+                        <div class="option-card" onclick="selectOption(this, 'service')">Hair Styling</div>
+                        <div class="option-card" onclick="selectOption(this, 'service')">Spa & Massage</div>
+                        <div class="option-card" onclick="selectOption(this, 'service')">Skincare</div>
+                        <div class="option-card" onclick="selectOption(this, 'service')">Makeup</div>
+                    </div>
+                    <button class="btn-primary next-step" disabled>Next</button>
+                </div>
+
+                <!-- Step 2: Stylist Selection -->
+                <div class="wizard-step" id="step-2">
+                    <h3>Choose a Stylist</h3>
+                    <div class="options-grid">
+                        <div class="option-card" onclick="selectOption(this, 'stylist')">Elena (Hair)</div>
+                        <div class="option-card" onclick="selectOption(this, 'stylist')">Julian (Color)</div>
+                        <div class="option-card" onclick="selectOption(this, 'stylist')">Sophia (Spa)</div>
+                        <div class="option-card" onclick="selectOption(this, 'stylist')">Any Available</div>
+                    </div>
+                    <div class="wizard-actions">
+                        <button class="btn-secondary prev-step">Back</button>
+                        <button class="btn-primary next-step" disabled>Next</button>
+                    </div>
+                </div>
+
+                <!-- Step 3: Date & Confirm -->
+                <div class="wizard-step" id="step-3">
+                    <h3>Select Date & Time</h3>
+                    <div class="date-time-form">
+                        <input type="date" id="book-date" required>
+                        <select id="book-time" required>
+                            <option value="">Select Time</option>
+                            <option value="10:00">10:00 AM</option>
+                            <option value="12:00">12:00 PM</option>
+                            <option value="14:00">2:00 PM</option>
+                            <option value="16:00">4:00 PM</option>
+                        </select>
+                        <input type="text" placeholder="Your Name" required id="book-name">
+                        <input type="email" placeholder="Your Email" required id="book-email">
+                    </div>
+                    <div class="wizard-actions">
+                        <button class="btn-secondary prev-step">Back</button>
+                        <button class="btn-primary submit-booking">Confirm Booking</button>
+                    </div>
+                </div>
+                
+                <!-- Success Message -->
+                <div class="wizard-step" id="step-success">
+                    <div class="success-message">
+                        <h3>✨ Appointment Confirmed! ✨</h3>
+                        <p>We look forward to seeing you at Lumière.</p>
+                        <button class="btn-primary close-modal-btn">Done</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
